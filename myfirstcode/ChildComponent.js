@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {View, Text} from 'react-native';
 /*
 class ChildComponent extends Component {
@@ -20,6 +20,7 @@ function ChildComponent(props) {
 }
 */
 //same thing as the other codes on top
+//same as the funtion. no state or anything else
 const ChildComponent = props => (
     <View>
         <Text>{props.content}</Text>
